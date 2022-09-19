@@ -1,0 +1,21 @@
+.txt{
+    font-size: 25px;
+}
+ul{display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    li{
+        list-style-type: none;
+        font-weight: bold;
+    } 
+}
+.gridListaMain{
+    display: grid;
+    grid-template-areas:
+    "primer segundo tercero";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 106px ;
+}
+.primer{grid-area: primer; display: flex; justify-content: center; @extend .txt;}
+.segundo{grid-area: segundo;  display: flex; justify-content: center; @extend .txt;}
+.tercero{grid-area: tercero;  display: flex; justify-content: center; @extend .txt;}

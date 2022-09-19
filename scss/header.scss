@@ -1,0 +1,20 @@
+
+header{
+    display: flex;
+    flex-direction: column;
+    div{
+        padding-top: 50px;
+
+        .translateY{
+            transition: all 1s;
+        }
+        .translateY:hover{
+            transform: translateY(-20px);
+        }
+        }
+    nav ul{display: flex; justify-content: space-around; font-weight: bold; list-style-type: none;}
+    
+}
+a{
+    text-decoration: none;
+}

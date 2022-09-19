@@ -1,0 +1,114 @@
+.imgHome {
+  padding-top: 25px; }
+
+.txtMain {
+  font-size: 25px;
+  padding-top: 25px; }
+
+div .txtBlog {
+  color: black;
+  font-size: 25px;
+  padding-top: 25px; }
+
+div .txtQuienSoy {
+  color: black;
+  font-size: 25px;
+  padding-top: 25px; }
+
+.imgPort, .imgPort2 {
+  width: 500px;
+  height: 450px; }
+
+.imgPort2 {
+  width: 500px;
+  height: 200px; }
+
+@media only screen and (max-width: 768px) {
+  .imgPort, .imgPort2 {
+    width: 375px;
+    height: 375px; }
+  .imgPort2 {
+    width: 350px;
+    height: 175px; } }
+
+footer {
+  border-top: solid 1px #0068D6; }
+  footer a {
+    text-decoration: none; }
+  footer ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px; }
+    footer ul li {
+      list-style-type: none;
+      font-weight: bold; }
+
+header {
+  display: flex;
+  flex-direction: column; }
+  header div {
+    padding-top: 50px; }
+    header div .translateY {
+      transition: all 1s; }
+    header div .translateY:hover {
+      transform: translateY(-20px); }
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.txt, .primer, .segundo, .tercero {
+  font-size: 25px; }
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px; }
+  ul li {
+    list-style-type: none;
+    font-weight: bold; }
+
+.gridListaMain {
+  display: grid;
+  grid-template-areas: "primer segundo tercero";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 106px; }
+
+.primer {
+  grid-area: primer;
+  display: flex;
+  justify-content: center; }
+
+.segundo {
+  grid-area: segundo;
+  display: flex;
+  justify-content: center; }
+
+.tercero {
+  grid-area: tercero;
+  display: flex;
+  justify-content: center; }
+
+.nombre, .nombre2 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 25px; }
+
+.imgPort, .imgPort2 {
+  display: block;
+  margin: auto;
+  padding-top: 50px; }
+
+.texto, .texto2 {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 25px;
+  padding-top: 50px; }
+
+body {
+  background-color: #9CD5DE; }

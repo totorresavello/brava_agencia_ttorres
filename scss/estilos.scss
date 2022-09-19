@@ -1,0 +1,37 @@
+$estiloTxt:(
+    color:black,
+    tFuente: 25px,
+    pTop: 25px
+);
+.imgHome{
+    padding-top: map-get($estiloTxt, pTop );
+}
+.txtMain{
+    font-size:map-get($estiloTxt, tFuente);
+    padding-top: map-get($estiloTxt, pTop);
+}
+div .txtBlog{
+    color:map-get($estiloTxt, color);
+    font-size:map-get($estiloTxt, tFuente);
+    padding-top:map-get($estiloTxt, pTop);
+}
+div .txtQuienSoy{
+    color:map-get($estiloTxt, color);
+    font-size:map-get($estiloTxt, tFuente);
+    padding-top:map-get($estiloTxt, pTop);
+}
+@mixin tamañoImagenes($width, $height){
+    width:$width;
+    height:$height;
+}
+.imgPort{
+    @include tamañoImagenes(500px,450px)
+}
+.imgPort2{
+    @include tamañoImagenes(500px, 200px)
+}
+@media only screen and (max-width:768px){
+
+    .imgPort{@include tamañoImagenes(375px,375px )}
+    .imgPort2{@include tamañoImagenes(350px, 175px)}
+}

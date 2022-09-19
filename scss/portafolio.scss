@@ -1,0 +1,6 @@
+.nombre{ display: flex; justify-content: center; font-size: 25px; padding-top: 25px;}
+.imgPort{display:block;margin:auto; padding-top: 50px;}
+.texto{display: flex; flex-wrap: wrap; font-size: 25px; padding-top: 50px}
+.nombre2{ @extend .nombre;}
+.imgPort2{ @extend .imgPort;}
+.texto2{ @extend .texto;}
